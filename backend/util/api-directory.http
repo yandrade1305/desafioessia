@@ -1,0 +1,23 @@
+### Create Directory
+POST {{server}}/api/directory/create
+Content-Type: application/json
+
+{
+  "name": "My Heart",
+  "parentId": null
+}
+
+### Update Directory
+PATCH {{server}}/api/directory/update/5
+Content-Type: application/json
+
+{
+  "name": "Loves Najuh",
+  "parentId": null
+}
+
+### Get All Directories
+GET {{server}}/api/directory/get
+
+### Delete Directory
+DELETE {{server}}/api/directory/delete/7

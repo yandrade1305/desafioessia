@@ -1,0 +1,23 @@
+### Create File
+POST {{server}}/api/file/create
+Content-Type: application/json
+
+{
+  "name": "declaracao.txt",
+  "directoryId": 6
+}
+
+### Update File
+PATCH {{server}}/api/file/update/4
+Content-Type: application/json
+
+{
+  "name": "amominhanamorada.txt",
+  "directoryId": 2
+}
+
+### Get All Files
+GET {{server}}/api/file/get
+
+### Delete File
+DELETE {{server}}/api/file/delete/4
