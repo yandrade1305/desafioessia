@@ -1,0 +1,13 @@
+<span>📁 {{ directory.name }}</span>
+
+<ul *ngIf="directory.files && directory.files.length > 0">
+  <li *ngFor="let file of directory.files">
+    📄 {{ file.name }}
+  </li>
+</ul>
+
+<ul *ngIf="directory.subdirectories && directory.subdirectories.length > 0">
+  <li *ngFor="let subdir of directory.subdirectories">
+    <app-directory [directory]="subdir"></app-directory>
+  </li>
+</ul>

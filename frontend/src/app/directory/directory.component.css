@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  span {
+    cursor: pointer;
+  }
+  

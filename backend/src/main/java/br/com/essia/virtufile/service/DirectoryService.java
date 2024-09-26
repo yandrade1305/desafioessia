@@ -122,7 +122,12 @@ public class DirectoryService {
 
     public List<DirectoryResponse> listAll() {
         List<Directory> directoryList = directoryRepository.findAll();
-        return directoryList.stream()
+
+        List<Directory> rootDirectories = directoryList.stream()
+                .filter(directory -> isRootDirectory(directory, directoryList))
+                .collect(Collectors.toList());
+
+        return rootDirectories.stream()
                 .map(directory -> DirectoryResponse.builder()
                         .id(directory.getId())
                         .name(directory.getName())
@@ -130,6 +135,11 @@ public class DirectoryService {
                         .subdirectories(directory.getSubdirectories())
                         .build())
                 .collect(Collectors.toList());
+    }
+
+    private boolean isRootDirectory(Directory directory, List<Directory> allDirectories) {
+        return allDirectories.stream()
+                .noneMatch(parent -> parent.getSubdirectories().contains(directory));
     }
 
 }
