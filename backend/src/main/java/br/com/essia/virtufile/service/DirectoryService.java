@@ -90,10 +90,10 @@ public class DirectoryService {
             directory.setFiles(null);
         }
 
-        if (request.getFilesIds() != null){
-            request.getSubdirectoriesId().forEach(
+        if (request.getSubdirectoriesIds() != null){
+            request.getSubdirectoriesIds().forEach(
                     subdirectoriesId -> {
-                        Directory subdirectory = directoryRepository.findById(request.getParentId())
+                        Directory subdirectory = directoryRepository.findById(subdirectoriesId)
                                 .orElseThrow(() -> new BadRequestNotFoundException(404, "Diretório não encontrado com o ID: " + request.getParentId()));
                         directoryList.add(subdirectory);
                     }

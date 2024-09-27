@@ -15,5 +15,5 @@ public class DirectoryUpdateRequest {
     private String name;
     private Long parentId;
     private List<Long> filesIds;
-    private List<Long> subdirectoriesId;
+    private List<Long> subdirectoriesIds;
 }
