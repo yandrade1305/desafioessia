@@ -9,8 +9,6 @@
   <img src="https://github.com/user-attachments/assets/c6860b54-b7de-4213-bd4e-e7411a79fe45" />
 </p>
 
-Repositório voltado ao desenvolvimento do <a href="https://docs.google.com/presentation/d/10LXS58S4mXKWY-ppl8_zigrJQS19povhkVIx1IrrTdo/edit#slide=id.g2dde4ec7cdc_0_15"> Desafio da empresa Essia </a>
-
 ## Índice 
 
 * [Índice](#índice)
@@ -22,6 +20,8 @@ Repositório voltado ao desenvolvimento do <a href="https://docs.google.com/pres
 * [Conclusão](#conclusão)
 
 ## Descrição do Projeto
+
+Repositório voltado ao desenvolvimento do <a href="https://docs.google.com/presentation/d/10LXS58S4mXKWY-ppl8_zigrJQS19povhkVIx1IrrTdo/edit#slide=id.g2dde4ec7cdc_0_15"> Desafio da empresa Essia </a>
 
 Virtufile é uma aplicação Web onde você consegue gerir arquivos e diretórios. A aplicação foi desenvolvida usando Java e o frontend é em Angular. Além disso, o projeto possui testes unitários e está totalmente dockerizado.
 
