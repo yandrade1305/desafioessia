@@ -2,7 +2,7 @@
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 ![Badge Java](http://img.shields.io/static/v1?label=JAVA&message=21.0.4&color=yellow&style=for-the-badge)
 ![Badge Spring](http://img.shields.io/static/v1?label=SPRING&message=4.0.0&color=GREEN&style=for-the-badge)
-![Badge MySQL](http://img.shields.io/static/v1?label=POSTGRESQL&message=8.0.39&color=blue&style=for-the-badge)
+![Badge MySQL](https://img.shields.io/static/v1?label=MySQL&message=8.0.39&color=2596be&style=for-the-badge)
 ![Badge Angular](http://img.shields.io/static/v1?label=Angular&message=14.1.0&color=red&style=for-the-badge)
 
 <p align="center">
@@ -23,7 +23,7 @@ Repositório voltado ao desenvolvimento do <a href="https://docs.google.com/pres
 
 ## Descrição do Projeto
 
-Virtufile é uma aplicação Web onde você consegue gerir arquivos e diretórios. A aplicação foi desenvolvida usando Java e o frontend é em Angular. Além disso, o projeto possui testes unitários e está totalmente dockerizado
+Virtufile é uma aplicação Web onde você consegue gerir arquivos e diretórios. A aplicação foi desenvolvida usando Java e o frontend é em Angular. Além disso, o projeto possui testes unitários e está totalmente dockerizado.
 
 ## Como Rodar Localmente
 
@@ -271,7 +271,7 @@ As funcionalidades foram divididas em: criar, editar, excluir e listar tanto arq
 
 ### Conclusão
 
-Este desafio foi de longe um dos mais legais de se desenvolver, porque foi um projeto que eu consegui aplicar tudo que aprendi nas minhas experiências profissionais e acadêmicas. Consegui desenvolver os testes unitários criando um container para o banco de dados usando os TestContainers e também dockerizando a aplicação inteira. Duas coisas que eu nunca tinha feito do zero e obtido sucesso, e nesse projeto eu consegui. Aprendi que se você nunca desistir e sempre tentar alcançar seus objetivos, uma hora você chega lá.
+Este desafio foi de longe um dos mais legais de se desenvolver, porque foi um projeto que eu consegui aplicar tudo que aprendi nas minhas experiências profissionais e acadêmicas. Consegui desenvolver os testes unitários criando um container para o banco de dados usando os TestContainers e também dockerizando a aplicação inteira. Duas coisas que eu nunca tinha feito do zero e obtido sucesso, e nesse projeto eu consegui. Aprendi que se você nunca desistir e sempre tentar alcançar seus objetivos, uma hora você chega lá. O projeto em si eu sinto que conseguiria ter realizado ele em 3 dias se eu me dedicasse exclusivamente a ele, mas fico feliz com o resultado de ter entregado ele completo e dentro do prazo.
 
 Muito obrigado Essia por me darem esta oportunidade onde pude me desafiar e desenvolver um excelente projeto!
 
